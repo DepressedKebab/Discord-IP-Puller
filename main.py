@@ -24,7 +24,7 @@ fields = [
     {'name': 'Longitude', 'value': geo['lon']},
     {'name': 'Org', 'value': geo['org']},
     {'name': 'Region', 'value': geo['region']},
-    {'name': 'Status', 'value': geo['status']},
+{'name': 'Website Link', 'value': 'http://extreme-ip-lookup.com/' + geo['query'] },
 ]
 for field in fields:
     if field['value']:
